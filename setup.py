@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 # Read the README file for long description
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -14,6 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/shuhei-kinugasa/cmm-measurement-parser",  # Change 'shuhei-kinugasa' to your actual GitHub username
     py_modules=["cmm_measurement_parser"],
+    license="MIT",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Manufacturing",
